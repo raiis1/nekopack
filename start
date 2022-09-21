@@ -16,7 +16,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbFphbC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS96ZWx6YWwvdHJlZS9tYXN0ZXIuZ2l0" | base64 -d
     fi
 }
 
