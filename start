@@ -6,7 +6,7 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "zel" ]]
     then
-        echo "SFRUUFM6Ly9naXRodWIuY29tL3JhaWlzL1pFTFpBTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3JhaWlzMS96ZWx6YWwvdHJlZS9tYXN0ZXIuZ2l0" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
