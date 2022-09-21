@@ -26,7 +26,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "zel" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1pFTFpBTA==" | base64 -d`
+        rlink=`echo "SFRUUFM6Ly9naXRodWIuY29tL3RhaWlzMS9aRUxaQUw=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
